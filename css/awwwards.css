@@ -1,0 +1,60 @@
+#awwwards {
+	top: 40px; position: absolute; z-index: 9999;
+}
+.left#awwwards {
+	left: 0px;
+}
+.right#awwwards {
+	right: 0px;
+}
+#awwwards a {
+	background-position: 0px 0px; width: 70px; height: 105px; text-indent: -8000px; overflow: hidden; display: block; background-repeat: no-repeat;
+}
+.black.left#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_black_left.png");
+}
+.black.right#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_black_right.png");
+}
+.white.left#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_white_left.png");
+}
+.white.right#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_white_right.png");
+}
+.green.left#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_green_left.png");
+}
+.green.right#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_green_right.png");
+}
+@media all and (max-width:767px)
+{
+#awwwards {
+	display: none;
+}
+}
+@media not all, not all, not all, not all
+{
+#awwwards a {
+	background-size: 70px 105px; -moz-background-size: 70px 105px; -ie-background-size: 70px 105px; -o-background-size: 70px 105px; -webkit-background-size: 70px 105px;
+}
+.black.left#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_black_left2x.png");
+}
+.black.right#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_black_right2x.png");
+}
+.white.left#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_white_left2x.png");
+}
+.white.right#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_white_right2x.png");
+}
+.green.left#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_green_left2x.png");
+}
+.green.right#awwwards a {
+	background-image: url("ribbons/awwwards_nominee_green_right2x.png");
+}
+}

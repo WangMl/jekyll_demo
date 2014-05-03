@@ -1,0 +1,24 @@
+@font-face {
+	font-family: Source Sans Pro;
+	src: local("Source Sans Pro ExtraLight"), local("SourceSansPro-ExtraLight"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGMa9awK0IKUjIWABZIchFI8.woff) format("woff");
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: Source Sans Pro;
+	src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Source Sans Pro;
+	src: local("Source Sans Pro ExtraLight Ital"), local("SourceSansPro-ExtraLightIt"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/fpTVHK8qsXbIeTHTrnQH6PwwJPUC4r0o28cUCbhjOjM.woff) format("woff");
+	font-weight: 200;
+	font-style: italic;
+}
+@font-face {
+	font-family: Source Sans Pro;
+	src: local("Source Sans Pro Italic"), local("SourceSansPro-It"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/M2Jd71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+}

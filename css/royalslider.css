@@ -1,0 +1,234 @@
+.royalSlider {
+	width: 600px; height: 450px; margin-top: 50px; margin-bottom: 50px; position: relative; direction: ltr;
+}
+.royalSlider > * {
+	float: left;
+}
+.rsWebkit3d .rsSlide {
+	-webkit-transform: translateZ(0);
+}
+.rsWebkit3d .rsSlide {
+	-webkit-backface-visibility: hidden;
+}
+.rsWebkit3d .rsContainer {
+	-webkit-backface-visibility: hidden;
+}
+.rsWebkit3d .rsThumbs {
+	-webkit-backface-visibility: hidden;
+}
+.rsWebkit3d .rsPreloader {
+	-webkit-backface-visibility: hidden;
+}
+.rsWebkit3d img {
+	-webkit-backface-visibility: hidden;
+}
+.rsWebkit3d .rsOverflow {
+	-webkit-backface-visibility: hidden;
+}
+.rsWebkit3d .rsBtnCenterer {
+	-webkit-backface-visibility: hidden;
+}
+.rsWebkit3d .rsAbsoluteEl {
+	-webkit-backface-visibility: hidden;
+}
+.rsWebkit3d .rsABlock {
+	-webkit-backface-visibility: hidden;
+}
+.rsWebkit3d .rsLink {
+	-webkit-backface-visibility: hidden;
+}
+.rsWebkit3d.rsFade .rsSlide {
+	-webkit-transform: none;
+}
+.rsWebkit3d.rsFade img {
+	-webkit-transform: none;
+}
+.rsWebkit3d.rsFade .rsContainer {
+	-webkit-transform: none;
+}
+.rsOverflow {
+	width: 100%; height: 100%; overflow: hidden; float: left; position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.rsVisibleNearbyWrap {
+	left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.rsVisibleNearbyWrap .rsOverflow {
+	left: 0px; top: 0px; position: absolute;
+}
+.rsContainer {
+	width: 100%; height: 100%; position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.rsArrow {
+	cursor: pointer;
+}
+.rsThumbsArrow {
+	cursor: pointer;
+}
+.rsThumb {
+	float: left; position: relative;
+}
+.rsArrow {
+	transition:opacity 0.3s linear; opacity: 1; -webkit-transition: opacity .3s linear; -moz-transition: opacity .3s linear; -o-transition: opacity .3s linear;
+}
+.rsNav {
+	transition:opacity 0.3s linear; opacity: 1; -webkit-transition: opacity .3s linear; -moz-transition: opacity .3s linear; -o-transition: opacity .3s linear;
+}
+.rsThumbsArrow {
+	transition:opacity 0.3s linear; opacity: 1; -webkit-transition: opacity .3s linear; -moz-transition: opacity .3s linear; -o-transition: opacity .3s linear;
+}
+.rsHidden {
+	transition:visibility 0s linear 0.3s, opacity 0.3s linear; visibility: hidden; opacity: 0; -webkit-transition: visibility 0s linear .3s, opacity .3s linear; -moz-transition: visibility 0s linear .3s, opacity .3s linear; -o-transition: visibility 0s linear .3s, opacity .3s linear;
+}
+.rsGCaption {
+	width: 100%; text-align: center; float: left;
+}
+.rsFullscreen.royalSlider {
+	margin: 0px !important; padding: 0px !important; left: 0px !important; top: 0px !important; width: auto !important; height: auto !important; right: 0px !important; bottom: 0px !important; position: fixed !important; z-index: 2147483647 !important;
+}
+.royalSlider .rsFakePreloader.rsSlide {
+	transition:all; display: none; opacity: 1 !important; -webkit-transition: 0s; -moz-transition: 0s; -o-transition: 0s;
+}
+.rsSlide {
+	left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; display: block; position: absolute;
+}
+.rsAutoHeight.royalSlider {
+	height: auto;
+}
+.rsAutoHeight .rsSlide {
+	height: auto;
+}
+.rsContent {
+	width: 100%; height: 100%; position: relative;
+}
+.rsPreloader {
+	position: absolute; z-index: 0;
+}
+.rsNav {
+	-moz-user-select: -moz-none; -webkit-user-select: none; user-select: none;
+}
+.rsNavItem {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.25);
+}
+.rsThumbs {
+	overflow: hidden; float: left; position: relative; z-index: 22; cursor: pointer;
+}
+.rsTabs {
+	background: none !important; float: left;
+}
+.rsTabs {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.rsThumbs {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.rsVideoContainer {
+	width: auto; height: auto; line-height: 0; position: relative;
+}
+.rsVideoFrameHolder {
+	background: rgb(20, 20, 20); left: 0px; top: 0px; position: absolute; opacity: 0; -webkit-transition: .3s;
+}
+.rsVideoActive.rsVideoFrameHolder {
+	opacity: 1;
+}
+.rsVideoContainer iframe {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 50;
+}
+.rsVideoContainer video {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 50;
+}
+.rsVideoContainer embed {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 50;
+}
+.rsVideoContainer .rsVideoObj {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 50;
+}
+.rsIOSVideo.rsVideoContainer iframe {
+	padding-right: 44px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.rsIOSVideo.rsVideoContainer video {
+	padding-right: 44px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.rsIOSVideo.rsVideoContainer embed {
+	padding-right: 44px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.rsABlock {
+	left: 0px; top: 0px; position: absolute; z-index: 15;
+}
+img.rsImg {
+	max-width: none;
+}
+.grab-cursor {
+	
+}
+.grabbing-cursor {
+	
+}
+.rsNoDrag {
+	cursor: auto;
+}
+.rsLink {
+	background: url("blank.gif"); left: 0px; top: 0px; width: 100%; height: 100%; display: block; position: absolute; z-index: 20;
+}
+#full-width-slider {
+	width: 100%; color: rgb(0, 0, 0);
+}
+.coloredBlock {
+	background: rgba(255, 0, 0, 0.6); padding: 12px; left: 20%; top: 5%; width: 200px; color: rgb(255, 255, 255);
+}
+.infoBlock {
+	background: rgba(255, 255, 255, 0.8); padding: 20px; left: auto; top: 30px; right: 30px; overflow: hidden; position: absolute; max-width: 25%;
+}
+.infoBlockLeftBlack {
+	background: rgba(0, 0, 0, 0.75); left: 30px; right: auto; color: rgb(255, 255, 255);
+}
+.infoBlock h4 {
+	margin: 0px; line-height: 1.2; padding-bottom: 3px; font-size: 20px;
+}
+.infoBlock p {
+	margin: 4px 0px 0px; font-size: 14px;
+}
+.infoBlock a {
+	color: rgb(255, 255, 255);
+}
+.photosBy {
+	background: rgb(255, 255, 255); padding: 0px 10px; border-radius: 2px; left: 12px; top: auto; bottom: 12px; color: rgb(0, 0, 0); line-height: 24px; font-size: 12px; position: absolute; z-index: 25;
+}
+.photosBy a {
+	color: rgb(0, 0, 0);
+}
+.fullWidth {
+	margin: 0px auto 24px; max-width: 1400px;
+}
+@media screen and (min-width:960px) and (min-height:660px)
+{
+.heroSlider .rsOverflow {
+	height: 520px !important;
+}
+.heroSlider.royalSlider {
+	height: 520px !important;
+}
+}
+@media screen and (min-width:960px) and (min-height:1000px)
+{
+.heroSlider .rsOverflow {
+	height: 660px !important;
+}
+.heroSlider.royalSlider {
+	height: 660px !important;
+}
+}
+@media screen and (max-width:800px) and (min-width:0px)
+{
+.heroSlider.royalSlider {
+	height: 300px !important;
+}
+.heroSlider.royalSlider .rsOverflow {
+	height: 300px !important;
+}
+.infoBlock {
+	padding: 10px; left: 5px; top: 5px; height: auto; right: auto; font-size: 12px; max-height: 100%; min-width: 40%;
+}
+.infoBlock h3 {
+	line-height: 17px; font-size: 14px;
+}
+}

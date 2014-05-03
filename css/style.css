@@ -1,0 +1,351 @@
+html {
+	background: rgb(245, 245, 245);
+}
+body {
+	background: rgb(245, 245, 245); width: 100%; height: 100%; float: left; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+h1 {
+	font-family: "Source Sans Pro", sans-serif; font-weight: 200;
+}
+h2 {
+	font-family: "Source Sans Pro", sans-serif; font-weight: 200;
+}
+h3 {
+	font-family: "Source Sans Pro", sans-serif; font-weight: 200;
+}
+h4 {
+	font-family: "Source Sans Pro", sans-serif; font-weight: 200;
+}
+h5 {
+	font-family: "Source Sans Pro", sans-serif; font-weight: 200;
+}
+p {
+	font-family: "Source Sans Pro", sans-serif; font-weight: 200;
+}
+a {
+	
+}
+::selection {
+	color: rgb(255, 255, 255); background-color: rgb(238, 123, 70);
+}
+.fixed-bkg {
+	width: 100%; height: 100%; position: fixed; z-index: 0;
+}
+.container {
+	width: 100%; height: 100%; float: left; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.content {
+	margin: 0px auto; padding: 0px 10px; width: 940px; height: auto; display: table; position: relative; z-index: 1; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.no-show {
+	display: none;
+}
+.container-section {
+	width: 100%; overflow: hidden; float: left; position: relative;
+}
+.row {
+	width: 100%; height: auto; float: left;
+}
+.orange {
+	color: rgb(238, 123, 70);
+}
+.pull-right {
+	float: right;
+}
+.pull-left {
+	float: left;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.no-margins {
+	margin: 0px;
+}
+.txt-right {
+	text-align: right;
+}
+.section-header {
+	margin: 0px; color: rgb(47, 47, 47); line-height: 56px; font-size: 36px;
+}
+.section-message {
+	margin-top: 80px;
+}
+.no-show {
+	display: none;
+}
+.mobile {
+	display: none;
+}
+.mobile-only {
+	display: none;
+}
+.tablet-only {
+	display: none;
+}
+.header-container {
+	background: rgb(17, 17, 17); width: 100%; height: 370px; float: left; position: relative; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.header {
+	left: 0px; top: 25px; width: 100%; height: 50px; position: absolute; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-transform: translateZ(0);
+}
+.header-message-content {
+	margin-top: 130px;
+}
+.header-message {
+	margin: 0px; color: rgb(255, 255, 255); line-height: 106px; font-size: 80px; float: left;
+}
+.header-submessage {
+	margin: 154px 0px 0px 20px; color: rgb(255, 255, 255); line-height: 22px; font-size: 18px; float: left;
+}
+.fixed-top {
+	background: rgba(0, 0, 0, 0.85); top: 0px; margin-top: 0px; position: fixed; z-index: 1001; box-shadow: 0px 2px 6px rgba(51,51,51,0.35); -webkit-box-shadow: 0px 2px 6px rgba(51, 51, 51, 0.35); -moz-box-shadow: 0px 2px 6px rgba(51, 51, 51, 0.35);
+}
+.top-menu {
+	width: auto; float: right;
+}
+.menu-links {
+	margin: 0px; padding: 0px; font-family: "Source Sans Pro", sans-serif; font-weight: 200; float: left; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.menu-links > li {
+	list-style: none; line-height: 25px; font-size: 18px; margin-right: 15px; float: left; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.last-links > li:last-child {
+	margin-right: 0px;
+}
+.last-links > li:last-child > a {
+	margin-right: 0px;
+}
+.menu-links > li > a {
+	margin: 0px 25px; padding: 0px 0px 11px; transition:border-bottom 100ms; color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 2px; text-decoration: none; float: left; text-shadow: 0px 0px 5px rgba(0,0,0,0.6); -webkit-transition: border-bottom 100ms ease; -moz-transition: border-bottom 100ms ease; -o-transition: border-bottom 100ms ease;
+}
+.menu-links > li > a:hover {
+	border-bottom-color: rgb(238, 123, 70); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.menu-links > li > a.selected {
+	border-bottom-color: rgb(238, 123, 70); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.logo-container {
+	width: 100%; height: 12px;
+}
+.logo-container > a {
+	width: 35px; height: 35px; margin-top: 8px; float: left;
+}
+.home-section {
+	width: 100%; position: relative; min-height: 300px; min-width: 100%; max-width: 1920px; background-attachment: fixed; background-repeat: no-repeat;
+}
+.service-section {
+	min-height: 700px; max-height: 800px;
+}
+.services-block {
+	margin-top: 80px;
+}
+.services-block .row {
+	margin-bottom: 50px;
+}
+.service {
+	width: 450px; height: auto; margin-right: 20px; float: left;
+}
+:last-child.service {
+	margin-right: 0px;
+}
+.service-container-img {
+	width: 151px; margin-right: 19px; float: left; min-height: 100%;
+}
+.service-img {
+	width: 100%; float: left;
+}
+.service-container-text {
+	width: 280px; float: left; min-height: 100%;
+}
+.service-header {
+	color: rgb(238, 123, 70); line-height: 36px; font-size: 30px; margin-bottom: 15px;
+}
+.service-description {
+	color: rgb(135, 135, 135); line-height: 20px; font-size: 15px; font-style: italic; margin-top: 0px;
+}
+.workimage-section {
+	width: 100%; height: 300px; position: relative; min-width: 100%; max-width: 1920px;
+}
+.scyscroller {
+	background: rgb(17, 17, 17); overflow: hidden;
+}
+.scyscroller > img {
+	left: 0px; position: absolute; min-height: 340px; -webkit-transform: translateZ(0);
+}
+.rsImg_a {
+	width: 100%;
+}
+.about-section {
+	padding: 80px 0px 50px; min-height: 740px; max-height: 800px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.about-section .row {
+	margin-bottom: 4px;
+}
+.about-personal-images {
+	width: 524px; float: left;
+}
+.personal-image {
+	width: 260px; height: 195px; overflow: hidden; margin-right: 4px; float: left; position: relative;
+}
+:last-child.personal-image {
+	margin-right: 0px;
+}
+.about-info {
+	width: 290px; margin-right: 40px; float: right;
+}
+.related-images {
+	width: 260px; height: 195px; float: left; position: relative;
+}
+.about-info p {
+	color: rgb(47, 47, 47); line-height: 24px; font-size: 20px;
+}
+.about-header {
+	margin: 110px 0px 0px; color: rgb(47, 47, 47); line-height: 56px; font-size: 54px;
+}
+.personal-image img {
+	width: 260px; height: 195px;
+}
+.hello-header-container {
+	height: 180px; margin-top: 100px; margin-bottom: 40px;
+}
+.hello-section {
+	min-height: 640px;
+}
+.hello-header {
+	line-height: 82px; font-size: 50px;
+}
+.hello-subheader {
+	margin: 22px 0px 10px 2px; line-height: 30px; font-size: 15px;
+}
+.contacts-container {
+	width: 450px; height: auto; margin-top: 20px; margin-left: 150px; float: left;
+}
+.social-link {
+	width: 45px; height: 45px; overflow: hidden; margin-right: 40px; float: left;
+}
+:last-child.social-link {
+	margin-right: 0px;
+}
+.social-link > a {
+	width: 45px; height: 45px; float: left;
+}
+.social-link > a {
+	position: relative;
+}
+.social-link > a > img {
+	left: 0px; top: 0px; position: absolute;
+}
+.social-link > a > img:hover {
+	left: -45px;
+}
+.contacts {
+	margin-top: 20px;
+}
+.contact-link {
+	width: auto; height: 100%; color: rgb(47, 48, 48); line-height: 60px; letter-spacing: 1px; font-family: "Source Sans Pro", sans-serif; font-size: 20px; font-style: italic; font-weight: 200; text-decoration: none; margin-right: 40px; float: left;
+}
+.contact-link:hover {
+	color: rgb(238, 123, 70);
+}
+.contact-link > img {
+	margin-right: 3px; margin-bottom: -3px;
+}
+.row-map {
+	width: 100%; height: 360px; overflow: hidden; float: left; position: relative;
+}
+.row-map-canvas {
+	width: 100%; height: 390px; float: left;
+}
+.zoom {
+	top: 108px; right: 22px; position: absolute; z-index: 10;
+}
+.zoom-plus {
+	background: url("../images/SVGs-PNG/Contact/mais.png") 0px 0px; width: 35px; height: 35px; margin-bottom: 6px; display: block;
+}
+.zoom-minus {
+	background: url("../images/SVGs-PNG/Contact/menos.png") 0px 0px; width: 35px; height: 35px; display: block;
+}
+.zoom-plus:hover {
+	background: url("../images/SVGs-PNG/Contact/mais.png") 35px 0px;
+}
+.zoom-minus:hover {
+	background: url("../images/SVGs-PNG/Contact/menos.png") 35px 0px;
+}
+.icon-contact {
+	width: 23px; height: 15px; overflow: hidden; float: left; position: relative;
+}
+.icon-contact > img {
+	left: 0px; top: 0px; position: absolute;
+}
+.contact-image {
+	width: 30px;
+}
+div.gmnoprint {
+	display: none;
+}
+.fb-like {
+	height: 45px; overflow: hidden; float: left;
+}
+.fb-like span {
+	width: 100%; margin-top: 20px;
+}
+.footer {
+	min-height: 60px;
+}
+.footer-copy-container {
+	width: 300px; float: right;
+}
+.footer-copy {
+	margin: 20px 0px; text-align: right; line-height: 20px; font-size: 16px; font-style: italic;
+}
+.royalSlider {
+	width: 100%; margin-bottom: 50px; max-height: 450px;
+}
+.rsOverflow {
+	overflow: visible;
+}
+.rsArrowIcn {
+	background: url("../images/SVGs-PNG/Work/whitearrows.png") no-repeat 0px 0px; border-radius: 2px; left: 0px; top: 50%; width: 20px; height: 40px; margin-top: -16px; margin-left: 0px; position: absolute; cursor: pointer; -webkit-transform: translateZ(0);
+}
+.rsArrowLeft.rsArrow {
+	left: 8px; top: 0px; width: 20px; height: 100%; display: block; position: absolute; -webkit-transform: translateZ(0);
+}
+.rsArrowRight.rsArrow {
+	top: 0px; width: 20px; height: 100%; right: 8px; display: block; position: absolute; -webkit-transform: translateZ(0);
+}
+.rsArrowRight.rsArrow .rsArrowIcn {
+	background-position: -26px 0px;
+}
+.rsArrowLeft.rsArrow .rsArrowIcn {
+	background-position: 0px 0px;
+}
+.infoBlock {
+	background: none; padding: 4px 11px; border: 1px solid white; border-image: none;
+}
+.infoBlock a {
+	font-size: 12px; font-weight: 100; text-decoration: none; float: left;
+}
+.infoBlock span {
+	margin: 4px 0px; text-transform: uppercase; font-size: 14px; font-weight: 400;
+}
+.infoBlock:hover span {
+	color: rgb(238, 123, 70);
+}
+.infoBlockLeft.infoBlock {
+	left: 30px; right: auto;
+}
+.infoBlockBottom.infoBlock {
+	top: auto; bottom: 30px;
+}
+.parallax-scy {
+	position: absolute; min-height: 350px; min-width: 100%;
+}
+.parallax-scy-home {
+	background: url("../images/home.jpg") no-repeat 50% 73% / 100%; left: 0px;
+}
+.parallax-scy-break-1 {
+	background: url("../images/bg1.jpg") no-repeat 50% 50%; left: 0px;
+}
+.parallax-scy-break-2 {
+	background: url("../images/home.jpg") no-repeat 50% 100% / 100%; left: 0px;
+}
